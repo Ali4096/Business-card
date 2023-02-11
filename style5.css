@@ -1,0 +1,48 @@
+.img{
+    display: inline;
+    width: 100px;
+}
+
+
+.card{
+    color: black;
+    background-color: rgb(240, 242, 255);
+    width: 350px;
+    height: 150px;
+    display: flex;
+    padding: 15px;
+    margin-left: 500px;
+    margin-top: 200px;
+    margin-right: auto;
+    border-bottom: 5px solid purple;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+} 
+
+/* EXAMPLE FOR CSS INHERETANCE */
+.side{
+    text-align: center;
+}
+
+/* .side{                  
+    margin-left: 20px;          OR WE CAN USE JUSTIFY CONTENT SEE BELOW
+}  */
+
+.card{
+    justify-content: space-around;
+}
+
+/* CREATING A UTALITY CLASS FOR BORDER  */
+/* .border-blue{
+    border: 1px dotted blue;
+} */
+ 
+
+/* .main{
+    display: flex;
+}
+
+.minidiv2{
+    margin-left: 100px;
+}
+ */
